@@ -30,7 +30,7 @@ Tandem follows the official OneAquaHealth Citizen Science App stream check quest
 
 **Bots and click-throughs can't poison the data.** A check made by automation software is quarantined: kept for transparency, but not counted and never learned from. Answers faster than anyone can read the questions, the same photo twice, or a photo reused from an earlier check are shown to the citizen and flagged for a researcher, never silently deleted.
 
-Researchers get a records view sorted so disagreements come first (where an expert learns most), and a **"what the second looks teach"** panel: per question, if citizens usually change their answer, the guidance needs work; if they usually keep it, the AI needs checking. The human corrects the AI as much as the AI helps the human. Researchers also get plus JSON, CSV and **FHIR R4** export shaped by the official OneAquaHealth Implementation Guide (`LocationOah`, `ObservationIndicatorsOah`, with a Provenance resource recording the citizen as author and the AI as informant). **The official HL7 validator reports 0 errors and 0 warnings** against the OneAquaHealth guide built from its source, with online terminology checks.
+Researchers get a records view sorted so disagreements come first (where an expert learns most), and a **"what the second looks teach"** panel: per question, if citizens usually change their answer, the guidance needs work; if they usually keep it, the AI needs checking. The human corrects the AI as much as the AI helps the human. Researchers also get JSON, CSV and **FHIR R4** export shaped by the official OneAquaHealth Implementation Guide (`LocationOah`, `ObservationIndicatorsOah`, with a Provenance resource recording the citizen as author and the AI as informant). **The official HL7 validator reports 0 errors and 0 warnings** against the OneAquaHealth guide built from its source, with online terminology checks.
 
 **Measured, not assumed.** On 25 openly licensed stream photos, labelled blind by an independent reference, the AI agreed **96%** of the time when all 3 looks agreed, and only **67%** at 2 of 3: the evidence behind the rule that it speaks only when unanimous. In a simulation it caught **90%** of citizen errors with **4%** false alarms. We publish the weak spots too: water colour (71%), and a tendency to answer when it should say "cannot tell". (Full report in the repo; the full-set reference labels are from a different AI model, so the figures likely overstate real-world accuracy.)
 
@@ -75,6 +75,6 @@ Tandem is built to drop into the OneAquaHealth app: the core logic is plain, uni
 typescript · react · vite · google-gemini · vercel · fhir · hl7 · node.js · vitest · puppeteer
 
 ## Links
-- Live demo: _Vercel URL_
-- Code: _GitHub URL_
+- Live demo: https://tandem-oneaquahealth.vercel.app
+- Code: https://github.com/abubokkor-cse/Tandem
 - Video: _YouTube URL_

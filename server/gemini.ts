@@ -1,8 +1,8 @@
 // Calls the Gemini API (free tier works) and turns several looks into one AiReport.
 // Runs on the server only: the API key never reaches the browser.
 
-import { aggregate, sanitizeSample, type AiReport, type Sample } from '../src/core/ai';
-import { buildPrompt, responseSchema } from './prompt';
+import { aggregate, sanitizeSample, type AiReport, type Sample } from '../src/core/ai.js';
+import { buildPrompt, responseSchema } from './prompt.js';
 
 export interface PhotoInput {
   role: string;

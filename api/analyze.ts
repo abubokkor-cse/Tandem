@@ -1,5 +1,5 @@
 // Vercel serverless function. The Gemini key lives in the project's environment variables.
-import { handleAnalyze } from '../server/handler';
+import { handleAnalyze } from '../server/handler.js';
 
 export const config = { maxDuration: 120 };
 

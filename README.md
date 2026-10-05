@@ -6,7 +6,7 @@
 
 OneAquaHealth IEEE Global Hackathon 2026 · **Track 3: AI-Supported Assessment**
 
-- **Live demo:** _add the Vercel URL here_
+- **Live demo:** https://tandem-oneaquahealth.vercel.app
 - **Demo video:** _add the video URL here_
 
 ![Tandem home](docs/screenshots/home.png)

@@ -1,8 +1,8 @@
 // The prompt and response schema sent to the vision model.
 // Design notes are in docs/PROMPTS.md.
 
-import { ANOMALY_KINDS } from '../src/core/ai';
-import { AI_QUESTIONS, NOT_SURE, type QuestionId } from '../src/core/protocol';
+import { ANOMALY_KINDS } from '../src/core/ai.js';
+import { AI_QUESTIONS, NOT_SURE, type QuestionId } from '../src/core/protocol.js';
 
 export const PROMPT_VERSION = 'tandem-prompt-v1';
 

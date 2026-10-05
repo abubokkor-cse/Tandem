@@ -4,7 +4,7 @@
 // model's own "I am 90% sure" is poorly calibrated; how often independent looks
 // agree is a better, measurable signal. Agreement is what we calibrate in eval/.
 
-import { AI_QUESTIONS, type QuestionId, question, NOT_SURE } from './protocol';
+import { AI_QUESTIONS, type QuestionId, question, NOT_SURE } from './protocol.js';
 
 export const NOT_VISIBLE = 'not_visible';
 

@@ -1,5 +1,5 @@
 // POST /api/analyze: photos in, AiReport out. Shared by the Vercel function and the Vite dev server.
-import { AiError, analyzePhotos, DEFAULT_MODEL, type PhotoInput } from './gemini';
+import { AiError, analyzePhotos, DEFAULT_MODEL, type PhotoInput } from './gemini.js';
 
 const ROLES = new Set(['upstream', 'downstream', 'context', 'biodiversity']);
 const MAX_PHOTO_BYTES = 1_500_000; // base64 length of one resized photo

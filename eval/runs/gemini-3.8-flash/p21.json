@@ -1,0 +1,210 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [],
+  "scene": {
+    "is_stream": true,
+    "quality": "ok",
+    "note": "A clear view of a stream channel flowing through a wooded area.",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": [
+        "u_shape"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center: the channel has rounded earthen sides creating a U-shaped profile.",
+      "photo": "downstream"
+    },
+    {
+      "question": "bottom_type",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel: the stream bed is hidden under opaque, reflective water.",
+      "photo": "none"
+    },
+    {
+      "question": "bank_type",
+      "value": [
+        "natural"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left and right banks: banks are made of natural soil, moss, and tree roots.",
+      "photo": "downstream"
+    },
+    {
+      "question": "habitats",
+      "value": [],
+      "support": 1,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 0,
+        "riffles": 0,
+        "aquatic_vegetation": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, channel: no sand banks, stone deposits, riffles, or aquatic plants are visible.",
+      "photo": "downstream"
+    },
+    {
+      "question": "natural_debris",
+      "value": [
+        "fallen_branches"
+      ],
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 1,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, center of channel: fallen branches and twigs are resting in and above the water.",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_flow",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel: the still photo cannot distinguish whether the flat water is slowly moving or stagnant.",
+      "photo": "none"
+    },
+    {
+      "question": "water_aspect",
+      "value": [
+        "turbid"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel: the water surface is opaque and greyish, preventing a view into the water.",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel and banks: no water intake, pump, or diversion channel is visible.",
+      "photo": "downstream"
+    },
+    {
+      "question": "barriers",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel: no dam, weir, or artificial barrier crosses the stream.",
+      "photo": "downstream"
+    },
+    {
+      "question": "draining_pipes",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, both banks: no drainage pipes are visible along the banks.",
+      "photo": "downstream"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel: no sewage entry or discharge is visible.",
+      "photo": "downstream"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel and banks: no construction works, machinery, or materials are present.",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: the area consists entirely of woodland with no paved surfaces or buildings.",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: the area consists entirely of woodland with no paved surfaces or buildings.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: the bank and adjacent ground are covered with dense trees and woodland plants.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": [
+        "trees"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: mature trees dominate the margin area within five meters of the bank.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: the bank and adjacent ground are covered with trees and woodland vegetation.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": [
+        "trees"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: trees dominate the margin area within five meters of the bank.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, both banks: there are no signs of recently cut trees, stumps, or cleared vegetation.",
+      "photo": "downstream"
+    }
+  ],
+  "createdAt": "2026-10-04T19:24:59.518Z"
+}

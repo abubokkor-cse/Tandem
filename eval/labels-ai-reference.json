@@ -1,0 +1,462 @@
+{
+  "labeller": "Independent AI reference (Claude)",
+  "labels": {
+    "p02": {
+      "channel_form": "flat",
+      "bottom_type": "artificial",
+      "bank_type": "artificial",
+      "habitats": [],
+      "natural_debris": [],
+      "water_flow": "slow",
+      "water_aspect": "turbid",
+      "barriers": "yes",
+      "construction": "no",
+      "impervious_left": "not_visible",
+      "impervious_right": "not_visible",
+      "vegetation_left": "not_visible",
+      "vegetation_right": "not_visible"
+    },
+    "p03": {
+      "channel_form": "not_visible",
+      "bottom_type": "natural",
+      "bank_type": "artificial",
+      "habitats": [
+        "sand_banks"
+      ],
+      "natural_debris": [
+        "fallen_branches"
+      ],
+      "water_flow": "slow",
+      "water_aspect": "turbid",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "yes",
+      "impervious_right": "not_visible",
+      "vegetation_left": "not_visible",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "herbs"
+    },
+    "p04": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "natural",
+      "habitats": [
+        "aquatic_vegetation"
+      ],
+      "natural_debris": [],
+      "water_flow": "stagnant",
+      "water_aspect": "not_visible",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "herbs",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "herbs"
+    },
+    "p06": {
+      "channel_form": "not_visible",
+      "bottom_type": "natural",
+      "bank_type": "artificial",
+      "habitats": [
+        "riffles",
+        "stone_deposits"
+      ],
+      "natural_debris": [],
+      "water_flow": "fast",
+      "water_aspect": "clear",
+      "barriers": "yes",
+      "construction": "no",
+      "impervious_left": "not_visible",
+      "impervious_right": "not_visible",
+      "vegetation_left": "not_visible",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "trees"
+    },
+    "p09": {
+      "channel_form": "u_shape",
+      "bottom_type": "not_visible",
+      "bank_type": "natural",
+      "habitats": "not_visible",
+      "natural_debris": "not_visible",
+      "water_flow": "not_visible",
+      "water_aspect": "not_visible",
+      "barriers": "yes",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "herbs",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "herbs"
+    },
+    "p10": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "artificial",
+      "habitats": "not_visible",
+      "natural_debris": "not_visible",
+      "water_flow": "not_visible",
+      "water_aspect": "not_visible",
+      "barriers": "not_visible",
+      "construction": "not_visible",
+      "impervious_left": "yes",
+      "impervious_right": "yes",
+      "vegetation_left": "not_visible",
+      "vegetation_right": "not_visible"
+    },
+    "p16": {
+      "channel_form": "v_shape",
+      "bottom_type": "natural",
+      "bank_type": "natural",
+      "habitats": [],
+      "natural_debris": [
+        "fallen_branches",
+        "leaf_deposits"
+      ],
+      "water_flow": "slow",
+      "water_aspect": "clear",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "trees",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "trees"
+    },
+    "p18": {
+      "channel_form": "not_visible",
+      "bottom_type": "natural",
+      "bank_type": "natural",
+      "habitats": [
+        "stone_deposits",
+        "riffles"
+      ],
+      "natural_debris": [
+        "fallen_branches"
+      ],
+      "water_flow": "fast",
+      "water_aspect": "clear",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "trees",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "trees"
+    },
+    "p19": {
+      "channel_form": "flat",
+      "bottom_type": "natural",
+      "bank_type": "natural",
+      "habitats": [
+        "stone_deposits",
+        "riffles"
+      ],
+      "natural_debris": [],
+      "water_flow": "not_visible",
+      "water_aspect": "clear",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "herbs",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "herbs"
+    },
+    "p21": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "natural",
+      "habitats": [],
+      "natural_debris": [
+        "fallen_branches"
+      ],
+      "water_flow": "not_visible",
+      "water_aspect": "not_visible",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "trees",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "trees"
+    },
+    "p22": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "natural",
+      "habitats": [],
+      "natural_debris": [],
+      "water_flow": "not_visible",
+      "water_aspect": "not_visible",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "herbs",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "herbs"
+    },
+    "p23": {
+      "channel_form": "flat",
+      "bottom_type": "natural",
+      "bank_type": "laid_stones",
+      "habitats": [],
+      "natural_debris": [],
+      "water_flow": "dry",
+      "water_aspect": "not_visible",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "trees",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "trees"
+    },
+    "p28": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "artificial",
+      "habitats": [],
+      "natural_debris": [],
+      "water_flow": "not_visible",
+      "water_aspect": "not_visible",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "yes",
+      "impervious_right": "yes",
+      "vegetation_left": "no",
+      "vegetation_right": "not_visible"
+    },
+    "p29": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "natural",
+      "habitats": "not_visible",
+      "natural_debris": "not_visible",
+      "water_flow": "not_visible",
+      "water_aspect": "not_visible",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "trees",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "trees"
+    },
+    "p30": {
+      "channel_form": "v_shape",
+      "bottom_type": "not_visible",
+      "bank_type": "natural",
+      "habitats": "not_visible",
+      "natural_debris": "not_visible",
+      "water_flow": "not_visible",
+      "water_aspect": "not_visible",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "trees",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "trees"
+    },
+    "p31": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "natural",
+      "habitats": [],
+      "natural_debris": "not_visible",
+      "water_flow": "not_visible",
+      "water_aspect": "not_visible",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "trees",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "trees"
+    },
+    "p33": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "artificial",
+      "habitats": [],
+      "natural_debris": [],
+      "water_flow": "fast",
+      "water_aspect": "not_visible",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "not_visible",
+      "impervious_right": "not_visible",
+      "vegetation_left": "not_visible",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "herbs"
+    },
+    "p34": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "not_visible",
+      "habitats": [],
+      "natural_debris": "not_visible",
+      "water_flow": "slow",
+      "water_aspect": "not_visible",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "not_visible",
+      "impervious_right": "no",
+      "vegetation_left": "not_visible",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "herbs"
+    },
+    "p35": {
+      "channel_form": "not_visible",
+      "bottom_type": "natural",
+      "bank_type": "natural",
+      "habitats": [
+        "riffles"
+      ],
+      "natural_debris": "not_visible",
+      "water_flow": "fast",
+      "water_aspect": "not_visible",
+      "barriers": "yes",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "not_visible",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "not_visible"
+    },
+    "p36": {
+      "channel_form": "not_visible",
+      "bottom_type": "natural",
+      "bank_type": "artificial",
+      "habitats": [
+        "stone_deposits",
+        "riffles"
+      ],
+      "natural_debris": [
+        "leaf_deposits"
+      ],
+      "water_flow": "slow",
+      "water_aspect": "clear",
+      "barriers": "yes",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "yes",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "trees",
+      "vegetation_right": "not_visible"
+    },
+    "p37": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "natural",
+      "habitats": [
+        "riffles"
+      ],
+      "natural_debris": [
+        "leaf_deposits"
+      ],
+      "water_flow": "fast",
+      "water_aspect": "not_visible",
+      "barriers": "yes",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "trees",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "trees"
+    },
+    "p38": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "not_visible",
+      "habitats": [
+        "riffles"
+      ],
+      "natural_debris": "not_visible",
+      "water_flow": "fast",
+      "water_aspect": "not_visible",
+      "barriers": "yes",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "not_visible",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "not_visible"
+    },
+    "p39": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "natural",
+      "habitats": [
+        "riffles"
+      ],
+      "natural_debris": "not_visible",
+      "water_flow": "fast",
+      "water_aspect": "not_visible",
+      "barriers": "yes",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "not_visible",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "not_visible"
+    },
+    "p40": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "artificial",
+      "habitats": [],
+      "natural_debris": [],
+      "water_flow": "not_visible",
+      "water_aspect": "not_visible",
+      "barriers": "yes",
+      "construction": "no",
+      "impervious_left": "no",
+      "impervious_right": "no",
+      "vegetation_left": "yes",
+      "vegetation_type_left": "herbs",
+      "vegetation_right": "yes",
+      "vegetation_type_right": "herbs"
+    },
+    "p42": {
+      "channel_form": "not_visible",
+      "bottom_type": "not_visible",
+      "bank_type": "artificial",
+      "habitats": [
+        "aquatic_vegetation"
+      ],
+      "natural_debris": [],
+      "water_flow": "not_visible",
+      "water_aspect": "not_visible",
+      "barriers": "no",
+      "construction": "no",
+      "impervious_left": "not_visible",
+      "impervious_right": "not_visible",
+      "vegetation_left": "not_visible",
+      "vegetation_right": "not_visible"
+    },
+    "p32": {
+      "_excluded": "stream not visible under vegetation"
+    },
+    "p41": {
+      "_excluded": "no stream in the photo"
+    }
+  }
+}

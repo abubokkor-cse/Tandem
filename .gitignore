@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.env
+.env.local
+.vercel/
+eval/photos/
+.DS_Store
+*.log
+out/
+
+# Private planning notes (not part of the submission)
+PLAN.md
+chllange.md
+docs/RESEARCH.md
+docs/GEMINI_RESEARCH_PROMPT.md
+docs/gemini_research_result.md
+
+# FHIR validator download
+tools/

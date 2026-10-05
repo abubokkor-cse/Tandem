@@ -1,0 +1,208 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [],
+  "scene": {
+    "is_stream": true,
+    "quality": "ok",
+    "note": "Stream channel viewed from an elevated distance across a grassy field.",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the stream bed and cross-section are too distant and partly obscured by trees to determine channel form",
+      "photo": "none"
+    },
+    {
+      "question": "bottom_type",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: water surface and distance prevent clear view of the channel bottom",
+      "photo": "none"
+    },
+    {
+      "question": "bank_type",
+      "value": [
+        "natural"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, both banks: natural earth, tree roots, and grassy slopes dominate the visible banks",
+      "photo": "downstream"
+    },
+    {
+      "question": "habitats",
+      "value": [
+        "riffles"
+      ],
+      "support": 1,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 0,
+        "riffles": 1,
+        "aquatic_vegetation": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, midground: white water breaking over rocks indicates riffles",
+      "photo": "downstream"
+    },
+    {
+      "question": "natural_debris",
+      "value": [],
+      "support": 0.6666666666666666,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 0,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo: no fallen trees, large branches, or leaf deposits visible in the open stream channel",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_flow",
+      "value": [
+        "fast"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, centre: white water and fast-flowing ripples over the bed",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_aspect",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: viewing distance prevents determining whether the water is clear or turbid",
+      "photo": "none"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": [
+        "no"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo: no pumps, hoses, or intake structures are visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "barriers",
+      "value": [
+        "no"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo: no clear artificial weir, dam, or transversal structure across the channel",
+      "photo": "downstream"
+    },
+    {
+      "question": "draining_pipes",
+      "value": [
+        "no"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo: no draining pipes discharging into the channel are visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": [
+        "no"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo: no visible sewage discharge points or plumes in the stream",
+      "photo": "downstream"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no machinery, works, or construction materials in or by the channel",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: bank is completely covered by trees and woodland, not impervious surfaces",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: bank is covered by pasture and a dry stone wall, with no paved surfaces",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: bank is covered by a dense stand of trees",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": [
+        "trees"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: continuous woodland of mature trees borders the stream",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: the bank is fully covered with grass pasture",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": [
+        "herbs"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: grassy pasture covers the entire immediate bank area",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no recent clearance, freshly cut stems, or mown strips evident along the immediate banks",
+      "photo": "downstream"
+    }
+  ],
+  "createdAt": "2026-10-04T19:31:54.637Z"
+}

@@ -1,0 +1,194 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [],
+  "scene": {
+    "is_stream": true,
+    "quality": "obstructed",
+    "note": "Dense vegetation, primarily stinging nettles and trees, completely obstructs the stream bed and water.",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the stream channel and bed are completely hidden behind dense vegetation",
+      "photo": "none"
+    },
+    {
+      "question": "bottom_type",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the bottom of the channel is hidden by dense vegetation",
+      "photo": "none"
+    },
+    {
+      "question": "bank_type",
+      "value": "not_visible",
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo: the channel banks are completely obscured by vegetation",
+      "photo": "none"
+    },
+    {
+      "question": "habitats",
+      "value": "not_visible",
+      "support": 1,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 0,
+        "riffles": 0,
+        "aquatic_vegetation": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo: the wet channel is not visible through the dense undergrowth",
+      "photo": "none"
+    },
+    {
+      "question": "natural_debris",
+      "value": "not_visible",
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 0,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo: the channel cannot be seen clearly enough to evaluate debris",
+      "photo": "none"
+    },
+    {
+      "question": "water_flow",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no water is visible through the thick vegetation",
+      "photo": "none"
+    },
+    {
+      "question": "water_aspect",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: water surface is not visible",
+      "photo": "none"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the channel area is hidden by thick vegetation",
+      "photo": "none"
+    },
+    {
+      "question": "barriers",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the stream channel is obscured by dense undergrowth",
+      "photo": "none"
+    },
+    {
+      "question": "draining_pipes",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the banks are not visible beneath dense plants",
+      "photo": "none"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the channel is obscured by thick vegetation",
+      "photo": "none"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo: no construction machinery or active works are visible.",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: entirely covered by trees and dense undergrowth with no artificial surfaces",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: entirely vegetated with trees, shrubs, and herbs without any paved surfaces",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: completely covered by dense vegetation",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": [
+        "trees"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: tall mature trees dominate the margin",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: completely covered with thick nettles and trees",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": [
+        "herbs"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: dense stinging nettles dominate the foreground bank area",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the dense nettles and vegetation show no signs of recent cutting or clearing",
+      "photo": "downstream"
+    }
+  ],
+  "createdAt": "2026-10-04T19:28:17.926Z"
+}

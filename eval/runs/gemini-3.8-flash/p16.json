@@ -1,0 +1,217 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [],
+  "scene": {
+    "is_stream": true,
+    "quality": "ok",
+    "note": "A small, clear stream flowing through a wooded natural channel.",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": [
+        "v_shape"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo: banks slope steeply down to a narrow stream bed forming a V-shaped profile.",
+      "photo": "downstream"
+    },
+    {
+      "question": "bottom_type",
+      "value": [
+        "natural"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, stream bed: natural gravel, stones, and sediment visible through the water.",
+      "photo": "downstream"
+    },
+    {
+      "question": "bank_type",
+      "value": [
+        "natural"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, both banks: natural soil banks covered with leaf litter, ivy, and tree roots.",
+      "photo": "downstream"
+    },
+    {
+      "question": "habitats",
+      "value": [
+        "riffles"
+      ],
+      "support": 0.6666666666666666,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 0.3333333333333333,
+        "riffles": 1,
+        "aquatic_vegetation": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, stream channel: shallow water flowing over stones creating ripples and riffles.",
+      "photo": "downstream"
+    },
+    {
+      "question": "natural_debris",
+      "value": [
+        "fallen_branches",
+        "leaf_deposits"
+      ],
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 1,
+        "leaf_deposits": 1
+      },
+      "looks": 3,
+      "evidence": "downstream photo, stream channel: fallen twigs, small branches, and leaf deposits resting in the water.",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_flow",
+      "value": [
+        "fast"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel: ripples visible on the surface as water moves over stones.",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_aspect",
+      "value": [
+        "clear"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel: water is clear and the channel bed is easily visible.",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no pipes, hoses, or water withdrawal devices are visible.",
+      "photo": "downstream"
+    },
+    {
+      "question": "barriers",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no transversal barriers or dams crossing the stream.",
+      "photo": "downstream"
+    },
+    {
+      "question": "draining_pipes",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no draining pipes are visible along either bank.",
+      "photo": "downstream"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no sewage entries, discharges, or residues visible.",
+      "photo": "downstream"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no construction work, machinery, or building materials present.",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: entire bank and riparian area consist of natural vegetated woodland.",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: natural forested ground with no artificial impervious surfaces.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left bank: completely covered with green plants, ivy, and trees.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": [
+        "trees"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: woodland with multiple tree trunks and overhanging tree canopy.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right bank: covered by vegetation including ivy and mature trees.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": [
+        "trees"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: dominated by large mature trees and canopy overhead.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, both banks: vegetation is untamed and natural with no signs of recent cutting or clearing.",
+      "photo": "downstream"
+    }
+  ],
+  "createdAt": "2026-10-04T19:23:47.744Z"
+}

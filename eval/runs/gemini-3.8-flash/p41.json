@@ -1,0 +1,178 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [],
+  "scene": {
+    "is_stream": false,
+    "quality": "no_water_visible",
+    "note": "The photo shows a street scene with buildings and vehicles, with no stream or channel visible.",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream channel is visible",
+      "photo": "none"
+    },
+    {
+      "question": "bottom_type",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream bed is visible",
+      "photo": "none"
+    },
+    {
+      "question": "bank_type",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream banks are visible",
+      "photo": "none"
+    },
+    {
+      "question": "habitats",
+      "value": "not_visible",
+      "support": 1,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 0,
+        "riffles": 0,
+        "aquatic_vegetation": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo: no stream habitats are visible",
+      "photo": "none"
+    },
+    {
+      "question": "natural_debris",
+      "value": "not_visible",
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 0,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo: no channel is visible",
+      "photo": "none"
+    },
+    {
+      "question": "water_flow",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no water is visible",
+      "photo": "none"
+    },
+    {
+      "question": "water_aspect",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no water is visible",
+      "photo": "none"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream is visible",
+      "photo": "none"
+    },
+    {
+      "question": "barriers",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream is visible",
+      "photo": "none"
+    },
+    {
+      "question": "draining_pipes",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream is visible",
+      "photo": "none"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream is visible",
+      "photo": "none"
+    },
+    {
+      "question": "construction",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream is visible",
+      "photo": "none"
+    },
+    {
+      "question": "impervious_left",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream margins are identifiable",
+      "photo": "none"
+    },
+    {
+      "question": "impervious_right",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream margins are identifiable",
+      "photo": "none"
+    },
+    {
+      "question": "vegetation_left",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream margins are identifiable",
+      "photo": "none"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream margins are identifiable",
+      "photo": "none"
+    },
+    {
+      "question": "vegetation_right",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream margins are identifiable",
+      "photo": "none"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream margins are identifiable",
+      "photo": "none"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no stream banks are visible",
+      "photo": "none"
+    }
+  ],
+  "createdAt": "2026-10-04T19:32:35.868Z"
+}

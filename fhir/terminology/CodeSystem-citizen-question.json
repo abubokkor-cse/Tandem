@@ -1,0 +1,113 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "citizen-question",
+  "url": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+  "version": "0.1.0",
+  "name": "Citizenstreamcheckquestions",
+  "title": "Citizen stream check questions",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "Tandem (OneAquaHealth IEEE Global Hackathon 2026)",
+  "description": "Citizen stream check questions. Codes for the OneAquaHealth citizen stream check, which the OneAquaHealth IG does not model yet.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 23,
+  "concept": [
+    {
+      "code": "channel_form",
+      "display": "Channel Form"
+    },
+    {
+      "code": "bottom_type",
+      "display": "Bottom Type"
+    },
+    {
+      "code": "bank_type",
+      "display": "Bank Type"
+    },
+    {
+      "code": "habitats",
+      "display": "Habitats"
+    },
+    {
+      "code": "natural_debris",
+      "display": "Natural Debris"
+    },
+    {
+      "code": "water_flow",
+      "display": "Water Flow"
+    },
+    {
+      "code": "water_aspect",
+      "display": "Water Aspect"
+    },
+    {
+      "code": "water_withdrawal",
+      "display": "Water Withdrawal"
+    },
+    {
+      "code": "barriers",
+      "display": "Barriers"
+    },
+    {
+      "code": "draining_pipes",
+      "display": "Draining Pipes"
+    },
+    {
+      "code": "sewage_discharge",
+      "display": "Sewage discharge"
+    },
+    {
+      "code": "construction",
+      "display": "Construction"
+    },
+    {
+      "code": "water_height",
+      "display": "Water height"
+    },
+    {
+      "code": "impervious_left",
+      "display": "Impervious Areas (Left)"
+    },
+    {
+      "code": "impervious_right",
+      "display": "Impervious Areas (Right)"
+    },
+    {
+      "code": "vegetation_left",
+      "display": "Vegetation (Left)"
+    },
+    {
+      "code": "vegetation_type_left",
+      "display": "Vegetation Type (Left)"
+    },
+    {
+      "code": "vegetation_right",
+      "display": "Vegetation (Right)"
+    },
+    {
+      "code": "vegetation_type_right",
+      "display": "Vegetation Type (Right)"
+    },
+    {
+      "code": "invasive_species",
+      "display": "Invasive Species"
+    },
+    {
+      "code": "vegetation_cut",
+      "display": "Vegetation Cuts"
+    },
+    {
+      "code": "overall_health",
+      "display": "Overall assessment of the stream ecosystem health"
+    },
+    {
+      "code": "additional_observation",
+      "display": "Additional observation"
+    }
+  ],
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Citizen stream check questions</div>"
+  }
+}

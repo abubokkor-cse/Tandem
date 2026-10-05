@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "anomaly",
+  "url": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/anomaly",
+  "version": "0.1.0",
+  "name": "AdditionalobservationsnoticedbytheAIandconfirmedbythecitizen",
+  "title": "Additional observations noticed by the AI and confirmed by the citizen",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "Tandem (OneAquaHealth IEEE Global Hackathon 2026)",
+  "description": "Additional observations noticed by the AI and confirmed by the citizen. Codes for the OneAquaHealth citizen stream check, which the OneAquaHealth IG does not model yet.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "litter",
+      "display": "Litter or waste"
+    },
+    {
+      "code": "oil_sheen",
+      "display": "Oily or rainbow sheen"
+    },
+    {
+      "code": "algal_bloom",
+      "display": "Algal bloom or green scum"
+    },
+    {
+      "code": "dead_animals",
+      "display": "Dead fish or animals"
+    },
+    {
+      "code": "wildlife",
+      "display": "Animals seen (birds, fish, insects…)"
+    },
+    {
+      "code": "other",
+      "display": "Something else unusual"
+    }
+  ],
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Additional observations noticed by the AI and confirmed by the citizen</div>"
+  }
+}

@@ -1,0 +1,1697 @@
+{
+  "resourceType": "Bundle",
+  "id": "7ffe13b2-501a-47d3-a51b-6b6015b5a4e9",
+  "meta": {
+    "lastUpdated": "2026-09-25T08:05:00Z"
+  },
+  "identifier": {
+    "system": "https://github.com/tandem-oah/tandem/fhir/record-id",
+    "value": "demo-oslo-o17"
+  },
+  "type": "collection",
+  "timestamp": "2026-09-25T08:05:00Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8",
+      "resource": {
+        "resourceType": "Location",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://oneaquahealth.eu/location-id",
+            "value": "O17"
+          }
+        ],
+        "name": "Alna – Bryn stasjon",
+        "description": "Oslo · OneAquaHealth research site",
+        "mode": "instance",
+        "position": {
+          "latitude": 59.9078,
+          "longitude": 10.8128
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Stream site Alna – Bryn stasjon</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed",
+      "resource": {
+        "resourceType": "Practitioner",
+        "identifier": [
+          {
+            "system": "https://github.com/tandem-oah/tandem/fhir/citizen-id",
+            "value": "79179944"
+          }
+        ],
+        "name": [
+          {
+            "text": "Citizen scientist (pseudonymous)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Citizen scientist (pseudonymous)</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:59c1824e-c769-4373-a5f8-07f4f18b9c69",
+      "resource": {
+        "resourceType": "Device",
+        "deviceName": [
+          {
+            "name": "Tandem AI second look (demo (synthetic), 3 independent looks)",
+            "type": "user-friendly-name"
+          }
+        ],
+        "note": [
+          {
+            "text": "Vision-language model. Answers from photos only, without seeing the citizen answers. Never sets the overall rating."
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tandem AI second look (demo (synthetic), 3 independent looks)</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:56a3ccda-acc5-4e4f-a433-1aacaedb0081",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "morophology",
+              "display": "Morphology of the streams"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "channel_form",
+              "display": "Channel Form"
+            }
+          ],
+          "text": "Channel Form"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "channel_form.v_shape",
+              "display": "V Shape (C)"
+            }
+          ],
+          "text": "V Shape (C)"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Channel Form: V Shape (C)</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:92a9205c-1280-4723-a678-5ab69a049125",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "morophology",
+              "display": "Morphology of the streams"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "bottom_type",
+              "display": "Bottom Type"
+            }
+          ],
+          "text": "Bottom Type"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "bottom_type.natural",
+              "display": "Natural (A)"
+            }
+          ],
+          "text": "Natural (A)"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bottom Type: Natural (A)</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bf13ae3b-2691-467c-aff3-5e55ff829226",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "morophology",
+              "display": "Morphology of the streams"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "bank_type",
+              "display": "Bank Type"
+            }
+          ],
+          "text": "Bank Type"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "bank_type.natural",
+              "display": "Natural (A)"
+            }
+          ],
+          "text": "Natural (A)"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bank Type: Natural (A)</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f2509d10-906c-4d9d-aa86-8e4e8a7cacb3",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "morophology",
+              "display": "Morphology of the streams"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "habitats",
+              "display": "Habitats"
+            }
+          ],
+          "text": "Habitats"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "Corroborated by an independent AI look (3/3 looks)."
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+                  "code": "habitats"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+                  "code": "habitats.riffles",
+                  "display": "Riffles, rapids, falls (D)"
+                }
+              ],
+              "text": "Riffles, rapids, falls (D)"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+                  "code": "habitats"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+                  "code": "habitats.stone_deposits",
+                  "display": "Stone deposits (C)"
+                }
+              ],
+              "text": "Stone deposits (C)"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Habitats: Riffles, rapids, falls (D), Stone deposits (C)</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4dcaf315-5484-4c08-aab2-b7d341d18a56",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "morophology",
+              "display": "Morphology of the streams"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "natural_debris",
+              "display": "Natural Debris"
+            }
+          ],
+          "text": "Natural Debris"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+                  "code": "natural_debris"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+                  "code": "natural_debris.fallen_trees",
+                  "display": "Fallen trees (A)"
+                }
+              ],
+              "text": "Fallen trees (A)"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Natural Debris: Fallen trees (A)</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2e8c3f58-843f-40e1-a43d-97f6ee00651f",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "hydrology",
+              "display": "Hydrology of the stream"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "water_flow",
+              "display": "Water Flow"
+            }
+          ],
+          "text": "Water Flow"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "Corroborated by an independent AI look (3/3 looks)."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "water_flow.fast",
+              "display": "Fast (with waves or high velocity) (A)"
+            }
+          ],
+          "text": "Fast (with waves or high velocity) (A)"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Water Flow: Fast (with waves or high velocity) (A)</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8be86440-a809-4bdd-a940-c822258e9eef",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "foam",
+              "display": "Foam/colour/smell"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "water_aspect",
+              "display": "Water Aspect"
+            }
+          ],
+          "text": "Water Aspect"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "Corroborated by an independent AI look (3/3 looks)."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "water_aspect.clear",
+              "display": "Clear/transparent (A)"
+            }
+          ],
+          "text": "Clear/transparent (A)"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Water Aspect: Clear/transparent (A)</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:23ad5b67-f412-45be-af75-51dd9382312c",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "hydrology",
+              "display": "Hydrology of the stream"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "water_withdrawal",
+              "display": "Water Withdrawal"
+            }
+          ],
+          "text": "Water Withdrawal"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "water_withdrawal.no",
+              "display": "No"
+            }
+          ],
+          "text": "No"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Water Withdrawal: No</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:72b75ce0-9ae1-4195-a5e7-f3fa43c749d7",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "hydrology",
+              "display": "Hydrology of the stream"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "barriers",
+              "display": "Barriers"
+            }
+          ],
+          "text": "Barriers"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "barriers.no",
+              "display": "No"
+            }
+          ],
+          "text": "No"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Barriers: No</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:375f5fe4-fbd3-4759-a037-35b2f44d3447",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "LandUse",
+              "display": "Land use in the margins"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "draining_pipes",
+              "display": "Draining Pipes"
+            }
+          ],
+          "text": "Draining Pipes"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "draining_pipes.no",
+              "display": "No"
+            }
+          ],
+          "text": "No"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Draining Pipes: No</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a96afc57-6246-428a-af3d-9e5d4cb54460",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "LandUse",
+              "display": "Land use in the margins"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "sewage_discharge",
+              "display": "Sewage discharge"
+            }
+          ],
+          "text": "Sewage discharge"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "sewage_discharge.yes",
+              "display": "Yes"
+            }
+          ],
+          "text": "Yes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sewage discharge: Yes</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:57d2a85d-44f4-47f8-a646-371b4a376a7e",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "LandUse",
+              "display": "Land use in the margins"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "construction",
+              "display": "Construction"
+            }
+          ],
+          "text": "Construction"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "construction.no",
+              "display": "No"
+            }
+          ],
+          "text": "No"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Construction: No</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2f871db3-e284-4a70-a494-d2a5ff18e922",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "LandUse",
+              "display": "Land use in the margins"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "impervious_left",
+              "display": "Impervious Areas (Left)"
+            }
+          ],
+          "text": "Impervious Areas (Left)"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "impervious_left.no",
+              "display": "No"
+            }
+          ],
+          "text": "No"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Impervious Areas (Left): No</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c0c624bc-4447-47e5-a7a7-ec7e50f6c90f",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "LandUse",
+              "display": "Land use in the margins"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "impervious_right",
+              "display": "Impervious Areas (Right)"
+            }
+          ],
+          "text": "Impervious Areas (Right)"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "impervious_right.no",
+              "display": "No"
+            }
+          ],
+          "text": "No"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Impervious Areas (Right): No</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0eebce94-55fa-4827-afa9-9e9e962da009",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "riparianVegetation",
+              "display": "Riparian vegetation"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "vegetation_left",
+              "display": "Vegetation (Left)"
+            }
+          ],
+          "text": "Vegetation (Left)"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "vegetation_left.yes",
+              "display": "Yes"
+            }
+          ],
+          "text": "Yes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vegetation (Left): Yes</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6e857727-f2a6-4ac6-a38b-c4f1d6ffe838",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "riparianVegetation",
+              "display": "Riparian vegetation"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "vegetation_type_left",
+              "display": "Vegetation Type (Left)"
+            }
+          ],
+          "text": "Vegetation Type (Left)"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "trees",
+              "display": "Trees (height >3m)"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "vegetation_type_left.trees",
+              "display": "Trees (C)"
+            }
+          ],
+          "text": "Trees (C)"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vegetation Type (Left): Trees (C)</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b12735c1-d6c0-43d8-a1a1-57f34c43bfaa",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "riparianVegetation",
+              "display": "Riparian vegetation"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "vegetation_right",
+              "display": "Vegetation (Right)"
+            }
+          ],
+          "text": "Vegetation (Right)"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "vegetation_right.yes",
+              "display": "Yes"
+            }
+          ],
+          "text": "Yes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vegetation (Right): Yes</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:78e010d8-7d3a-4f7b-ab56-8192f1b5aa8d",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "riparianVegetation",
+              "display": "Riparian vegetation"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "vegetation_type_right",
+              "display": "Vegetation Type (Right)"
+            }
+          ],
+          "text": "Vegetation Type (Right)"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "trees",
+              "display": "Trees (height >3m)"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "vegetation_type_right.trees",
+              "display": "Trees (C)"
+            }
+          ],
+          "text": "Trees (C)"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vegetation Type (Right): Trees (C)</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0686eefa-c3a6-403b-a2b7-5bf04cc8f4d1",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "invasiveOrganisms",
+              "display": "Invasive invertebrate, plants and fish"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "invasive_species",
+              "display": "Invasive Species"
+            }
+          ],
+          "text": "Invasive Species"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "invasive_species.no",
+              "display": "No"
+            }
+          ],
+          "text": "No"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Invasive Species: No</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3321796f-84f3-4cca-a235-892d57002ab8",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.eu/fhir/ig/oah/CodeSystem/temporarySystem-oah-eu",
+              "code": "riparianVegetation",
+              "display": "Riparian vegetation"
+            },
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "vegetation_cut",
+              "display": "Vegetation Cuts"
+            }
+          ],
+          "text": "Vegetation Cuts"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "note": [
+          {
+            "text": "AI could not tell."
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "vegetation_cut.no",
+              "display": "No"
+            }
+          ],
+          "text": "No"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vegetation Cuts: No</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f5958471-cb81-4d9e-a83f-45876ae1efe4",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question",
+              "code": "overall_health",
+              "display": "Overall assessment of the stream ecosystem health"
+            }
+          ],
+          "text": "Overall stream ecosystem health (citizen)"
+        },
+        "subject": {
+          "reference": "urn:uuid:23f80fa7-8b3b-4d02-a0e0-ad7dff3333f8"
+        },
+        "effectiveDateTime": "2026-09-25T08:05:00Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+          }
+        ],
+        "method": {
+          "text": "OneAquaHealth citizen stream check (visual, ca. 100 m reach), with an AI second look"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+              "code": "overall_health.good",
+              "display": "Good quality"
+            }
+          ],
+          "text": "Good quality"
+        },
+        "note": [
+          {
+            "text": "The citizen’s own judgement. The AI never suggests this rating."
+          },
+          {
+            "text": "Citizen note: Smelled of sewage near the outlet under the rail bridge."
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Overall stream ecosystem health (citizen): Good quality</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3458d233-f4eb-4a96-a862-5d79905add8c",
+      "resource": {
+        "resourceType": "Provenance",
+        "target": [
+          {
+            "reference": "urn:uuid:56a3ccda-acc5-4e4f-a433-1aacaedb0081"
+          },
+          {
+            "reference": "urn:uuid:92a9205c-1280-4723-a678-5ab69a049125"
+          },
+          {
+            "reference": "urn:uuid:bf13ae3b-2691-467c-aff3-5e55ff829226"
+          },
+          {
+            "reference": "urn:uuid:f2509d10-906c-4d9d-aa86-8e4e8a7cacb3"
+          },
+          {
+            "reference": "urn:uuid:4dcaf315-5484-4c08-aab2-b7d341d18a56"
+          },
+          {
+            "reference": "urn:uuid:2e8c3f58-843f-40e1-a43d-97f6ee00651f"
+          },
+          {
+            "reference": "urn:uuid:8be86440-a809-4bdd-a940-c822258e9eef"
+          },
+          {
+            "reference": "urn:uuid:23ad5b67-f412-45be-af75-51dd9382312c"
+          },
+          {
+            "reference": "urn:uuid:72b75ce0-9ae1-4195-a5e7-f3fa43c749d7"
+          },
+          {
+            "reference": "urn:uuid:375f5fe4-fbd3-4759-a037-35b2f44d3447"
+          },
+          {
+            "reference": "urn:uuid:a96afc57-6246-428a-af3d-9e5d4cb54460"
+          },
+          {
+            "reference": "urn:uuid:57d2a85d-44f4-47f8-a646-371b4a376a7e"
+          },
+          {
+            "reference": "urn:uuid:2f871db3-e284-4a70-a494-d2a5ff18e922"
+          },
+          {
+            "reference": "urn:uuid:c0c624bc-4447-47e5-a7a7-ec7e50f6c90f"
+          },
+          {
+            "reference": "urn:uuid:0eebce94-55fa-4827-afa9-9e9e962da009"
+          },
+          {
+            "reference": "urn:uuid:6e857727-f2a6-4ac6-a38b-c4f1d6ffe838"
+          },
+          {
+            "reference": "urn:uuid:b12735c1-d6c0-43d8-a1a1-57f34c43bfaa"
+          },
+          {
+            "reference": "urn:uuid:78e010d8-7d3a-4f7b-ab56-8192f1b5aa8d"
+          },
+          {
+            "reference": "urn:uuid:0686eefa-c3a6-403b-a2b7-5bf04cc8f4d1"
+          },
+          {
+            "reference": "urn:uuid:3321796f-84f3-4cca-a235-892d57002ab8"
+          },
+          {
+            "reference": "urn:uuid:f5958471-cb81-4d9e-a83f-45876ae1efe4"
+          }
+        ],
+        "recorded": "2026-09-25T08:05:00Z",
+        "activity": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "code": "CREATE",
+              "display": "create"
+            }
+          ],
+          "text": "Citizen stream check with an independent AI second look (citizen answered first; AI saw photos only)"
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "code": "author",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "urn:uuid:aa5f3c60-7917-4abf-af9b-4686f093e5ed"
+            }
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "code": "informant",
+                  "display": "Informant"
+                }
+              ]
+            },
+            "who": {
+              "reference": "urn:uuid:59c1824e-c769-4373-a5f8-07f4f18b9c69"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Citizen stream check with an independent AI second look</div>"
+        }
+      }
+    }
+  ]
+}

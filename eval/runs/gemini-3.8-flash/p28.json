@@ -1,0 +1,202 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [],
+  "scene": {
+    "is_stream": true,
+    "quality": "ok",
+    "note": "Clear view looking downstream along an urban river channel lined with buildings and quay walls.",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: deep water hides the channel bed and lower cross-section profile",
+      "photo": "none"
+    },
+    {
+      "question": "bottom_type",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the riverbed is completely hidden under deep water",
+      "photo": "none"
+    },
+    {
+      "question": "bank_type",
+      "value": [
+        "artificial"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left and right banks: vertical artificial quay walls and bulkheads",
+      "photo": "downstream"
+    },
+    {
+      "question": "habitats",
+      "value": [],
+      "support": 1,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 0,
+        "riffles": 0,
+        "aquatic_vegetation": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo: deep canalised channel without sand banks, gravel bars, riffles, or aquatic vegetation",
+      "photo": "downstream"
+    },
+    {
+      "question": "natural_debris",
+      "value": [],
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 0,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, water surface: open water with no fallen trees, branches, or leaf deposits",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_flow",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: calm surface cannot reliably distinguish slow flow from stagnant water",
+      "photo": "none"
+    },
+    {
+      "question": "water_aspect",
+      "value": [
+        "turbid"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, water surface: dark and turbid water where the river bottom is not visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no pumps, hoses, or water extraction pipes visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "barriers",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center: bridge spans the river without any transversal weir or dam blocking flow",
+      "photo": "downstream"
+    },
+    {
+      "question": "draining_pipes",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, visible quay walls: no pipes discharging polluted water",
+      "photo": "downstream"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no visible sewage discharge or grey water outfalls",
+      "photo": "downstream"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no construction machinery, works, or fresh works fencing in the channel",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: continuous paved waterfront promenades and buildings",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: paved walkways and urban structures along the bank",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: fully built-up waterfront with no plant cover",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: no vegetation present along the bank",
+      "photo": "none"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "no"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: entirely built-up with no vegetation along the bank edge.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": "not_visible",
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: no vegetation present along the bank top.",
+      "photo": "none"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": [
+        "no"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: visible trees show no signs of recent clearcutting or mowing",
+      "photo": "downstream"
+    }
+  ],
+  "createdAt": "2026-10-04T19:26:26.673Z"
+}

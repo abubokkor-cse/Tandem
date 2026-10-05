@@ -1,0 +1,321 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "citizen-answer",
+  "url": "https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-answer",
+  "version": "0.1.0",
+  "name": "Citizenstreamcheckanswers",
+  "title": "Citizen stream check answers",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "Tandem (OneAquaHealth IEEE Global Hackathon 2026)",
+  "description": "Citizen stream check answers. Codes for the OneAquaHealth citizen stream check, which the OneAquaHealth IG does not model yet.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 75,
+  "concept": [
+    {
+      "code": "channel_form.flat",
+      "display": "Flat (A)"
+    },
+    {
+      "code": "channel_form.u_shape",
+      "display": "U Shape (B)"
+    },
+    {
+      "code": "channel_form.v_shape",
+      "display": "V Shape (C)"
+    },
+    {
+      "code": "channel_form.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "bottom_type.natural",
+      "display": "Natural (A)"
+    },
+    {
+      "code": "bottom_type.artificial",
+      "display": "Artificial (concrete or stones with concrete) (B)"
+    },
+    {
+      "code": "bottom_type.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "bank_type.natural",
+      "display": "Natural (A)"
+    },
+    {
+      "code": "bank_type.artificial",
+      "display": "Artificial (concrete or stones with concrete) (B)"
+    },
+    {
+      "code": "bank_type.laid_stones",
+      "display": "Layed stones with no concrete (C)"
+    },
+    {
+      "code": "bank_type.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "habitats.sand_banks",
+      "display": "Sand banks (A)"
+    },
+    {
+      "code": "habitats.sand_islands",
+      "display": "Sand islands (B)"
+    },
+    {
+      "code": "habitats.stone_deposits",
+      "display": "Stone deposits (C)"
+    },
+    {
+      "code": "habitats.riffles",
+      "display": "Riffles, rapids, falls (D)"
+    },
+    {
+      "code": "habitats.aquatic_vegetation",
+      "display": "Aquatic vegetation (E)"
+    },
+    {
+      "code": "habitats.none",
+      "display": "None"
+    },
+    {
+      "code": "natural_debris.fallen_trees",
+      "display": "Fallen trees (A)"
+    },
+    {
+      "code": "natural_debris.fallen_branches",
+      "display": "Fallen branches (B)"
+    },
+    {
+      "code": "natural_debris.leaf_deposits",
+      "display": "Deposits of fallen leaves (C)"
+    },
+    {
+      "code": "natural_debris.none",
+      "display": "None"
+    },
+    {
+      "code": "water_flow.fast",
+      "display": "Fast (with waves or high velocity) (A)"
+    },
+    {
+      "code": "water_flow.slow",
+      "display": "Slow (B)"
+    },
+    {
+      "code": "water_flow.stagnant",
+      "display": "Stagnant/intermittent (C)"
+    },
+    {
+      "code": "water_flow.dry",
+      "display": "Dry (D)"
+    },
+    {
+      "code": "water_flow.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "water_aspect.clear",
+      "display": "Clear/transparent (A)"
+    },
+    {
+      "code": "water_aspect.turbid",
+      "display": "Muddy/turbid (B)"
+    },
+    {
+      "code": "water_aspect.foam",
+      "display": "Has foam (C)"
+    },
+    {
+      "code": "water_aspect.colored",
+      "display": "Has colors/altered color (D)"
+    },
+    {
+      "code": "water_aspect.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "water_withdrawal.yes",
+      "display": "Yes"
+    },
+    {
+      "code": "water_withdrawal.no",
+      "display": "No"
+    },
+    {
+      "code": "water_withdrawal.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "barriers.yes",
+      "display": "Yes"
+    },
+    {
+      "code": "barriers.no",
+      "display": "No"
+    },
+    {
+      "code": "barriers.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "draining_pipes.yes",
+      "display": "Yes"
+    },
+    {
+      "code": "draining_pipes.no",
+      "display": "No"
+    },
+    {
+      "code": "draining_pipes.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "sewage_discharge.yes",
+      "display": "Yes"
+    },
+    {
+      "code": "sewage_discharge.no",
+      "display": "No"
+    },
+    {
+      "code": "sewage_discharge.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "construction.yes",
+      "display": "Yes"
+    },
+    {
+      "code": "construction.no",
+      "display": "No"
+    },
+    {
+      "code": "construction.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "impervious_left.yes",
+      "display": "Yes"
+    },
+    {
+      "code": "impervious_left.no",
+      "display": "No"
+    },
+    {
+      "code": "impervious_left.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "impervious_right.yes",
+      "display": "Yes"
+    },
+    {
+      "code": "impervious_right.no",
+      "display": "No"
+    },
+    {
+      "code": "impervious_right.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "vegetation_left.yes",
+      "display": "Yes"
+    },
+    {
+      "code": "vegetation_left.no",
+      "display": "No"
+    },
+    {
+      "code": "vegetation_left.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "vegetation_type_left.herbs",
+      "display": "Herbs (A)"
+    },
+    {
+      "code": "vegetation_type_left.shrubs",
+      "display": "Shrubs (B)"
+    },
+    {
+      "code": "vegetation_type_left.trees",
+      "display": "Trees (C)"
+    },
+    {
+      "code": "vegetation_type_left.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "vegetation_right.yes",
+      "display": "Yes"
+    },
+    {
+      "code": "vegetation_right.no",
+      "display": "No"
+    },
+    {
+      "code": "vegetation_right.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "vegetation_type_right.herbs",
+      "display": "Herbs (A)"
+    },
+    {
+      "code": "vegetation_type_right.shrubs",
+      "display": "Shrubs (B)"
+    },
+    {
+      "code": "vegetation_type_right.trees",
+      "display": "Trees (C)"
+    },
+    {
+      "code": "vegetation_type_right.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "invasive_species.yes",
+      "display": "Yes"
+    },
+    {
+      "code": "invasive_species.no",
+      "display": "No"
+    },
+    {
+      "code": "invasive_species.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "vegetation_cut.yes",
+      "display": "Yes"
+    },
+    {
+      "code": "vegetation_cut.no",
+      "display": "No"
+    },
+    {
+      "code": "vegetation_cut.not_sure",
+      "display": "I’m not sure"
+    },
+    {
+      "code": "overall_health.good",
+      "display": "Good quality"
+    },
+    {
+      "code": "overall_health.moderate",
+      "display": "Moderate quality"
+    },
+    {
+      "code": "overall_health.poor",
+      "display": "Poor quality"
+    }
+  ],
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Citizen stream check answers</div>"
+  }
+}

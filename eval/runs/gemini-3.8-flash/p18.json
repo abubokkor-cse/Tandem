@@ -1,0 +1,218 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [],
+  "scene": {
+    "is_stream": true,
+    "quality": "ok",
+    "note": "A clear view of a natural, forested mountain stream cascading over boulders.",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": [
+        "v_shape"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center: steep sloping banks converge to form a narrow rocky bed",
+      "photo": "downstream"
+    },
+    {
+      "question": "bottom_type",
+      "value": [
+        "natural"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, lower center: stream bed is made of natural stones, gravel, and boulders",
+      "photo": "downstream"
+    },
+    {
+      "question": "bank_type",
+      "value": [
+        "natural"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left and right banks: natural earth, moss-covered rocks, and tree roots",
+      "photo": "downstream"
+    },
+    {
+      "question": "habitats",
+      "value": [
+        "riffles",
+        "stone_deposits"
+      ],
+      "support": 1,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 1,
+        "riffles": 1,
+        "aquatic_vegetation": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, throughout: fast water cascades over rocks forming riffles and deposits of stones",
+      "photo": "downstream"
+    },
+    {
+      "question": "natural_debris",
+      "value": [
+        "fallen_branches",
+        "fallen_trees"
+      ],
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 1,
+        "fallen_branches": 1,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, midground and background: fallen branches and downed tree trunks are scattered across the channel and bank",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_flow",
+      "value": [
+        "fast"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center: white water and fast cascades flow over the boulders",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_aspect",
+      "value": [
+        "clear"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, foreground: water is clear and transparent with bottom stones clearly visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no intake pipes, pumps, or diversion structures are visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "barriers",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no dams, weirs, or artificial transversal barriers are present",
+      "photo": "downstream"
+    },
+    {
+      "question": "draining_pipes",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: natural banks with no drainage pipes visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no signs of sewage discharge or wastewater entering the stream",
+      "photo": "downstream"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: undisturbed natural environment with no works or construction equipment",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: natural forest with no roads or artificial surfaces",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: natural rocky and vegetated terrain with no impervious surfaces",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: heavily covered in trees, ferns, and moss",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": [
+        "trees"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: mature forest trees dominate the margin",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: rocks are covered with dense mosses, ferns, and vegetation",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": [
+        "trees"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: trees dominate the upper slope and canopy above the bank",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, both banks: vegetation is naturally intact with no signs of recent cutting or clearing",
+      "photo": "downstream"
+    }
+  ],
+  "createdAt": "2026-10-04T19:24:15.799Z"
+}

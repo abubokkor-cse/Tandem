@@ -1,0 +1,221 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [
+    {
+      "kind": "litter",
+      "support": 1,
+      "photo": "downstream",
+      "evidence": "downstream photo, center: plastic bags, cloth, and waste trapped in the debris jam at the culvert opening"
+    }
+  ],
+  "scene": {
+    "is_stream": true,
+    "quality": "ok",
+    "note": "",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": [
+        "flat"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center: wide, shallow channel bed with a flat sandy bottom",
+      "photo": "downstream"
+    },
+    {
+      "question": "bottom_type",
+      "value": [
+        "natural"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center and right: sandy and muddy riverbed visible through the shallow water",
+      "photo": "downstream"
+    },
+    {
+      "question": "bank_type",
+      "value": [
+        "artificial"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left and center: concrete culvert abutments and vertical retaining walls along the channel",
+      "photo": "downstream"
+    },
+    {
+      "question": "habitats",
+      "value": [
+        "sand_banks"
+      ],
+      "support": 1,
+      "optionSupport": {
+        "sand_banks": 1,
+        "sand_islands": 0,
+        "stone_deposits": 0,
+        "riffles": 0,
+        "aquatic_vegetation": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, center and right: sand bank deposits exposed along the edge of the shallow water",
+      "photo": "downstream"
+    },
+    {
+      "question": "natural_debris",
+      "value": [
+        "fallen_branches"
+      ],
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 1,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, center: a large pile of fallen branches and sticks accumulated against the bridge pier",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_flow",
+      "value": "not_visible",
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, foreground and right: water surface is mostly calm with minor ripples, unable to reliably distinguish slow from stagnant",
+      "photo": "none"
+    },
+    {
+      "question": "water_aspect",
+      "value": [
+        "clear"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right: the sandy riverbed is clearly visible through the shallow water",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no pumps, hoses, or intake structures visible in the channel",
+      "photo": "downstream"
+    },
+    {
+      "question": "barriers",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: road bridge culvert crosses the stream, but there are no transversal weirs or dams",
+      "photo": "downstream"
+    },
+    {
+      "question": "draining_pipes",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no pipes discharging polluted effluent visible along the banks",
+      "photo": "downstream"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no visible greywater, sewage solids, or sewage discharge points",
+      "photo": "downstream"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no construction machinery, works, or fresh building materials present",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left: paved roadway and concrete structure cover more than one third of the left margin",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: the bank slope is mainly covered by soil and vegetation rather than paved surfaces",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "yes"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, bottom left: patches of leafy herbaceous vegetation present on the margin",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": [
+        "herbs"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, bottom left: low soft-stemmed herbaceous plants growing at the margin",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right bank: extensive green plant cover visible along the slope and banktop",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": [
+        "herbs"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right bank: dominant cover consists of grasses and herbaceous vegetation",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": [
+        "no"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, right bank: no freshly cut stems, mown paths, or recent clearance visible",
+      "photo": "downstream"
+    }
+  ],
+  "createdAt": "2026-10-04T19:21:13.425Z"
+}

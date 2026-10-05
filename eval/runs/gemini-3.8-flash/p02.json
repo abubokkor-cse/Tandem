@@ -1,0 +1,220 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [
+    {
+      "kind": "litter",
+      "support": 1,
+      "photo": "downstream",
+      "evidence": "downstream photo, channel bed: pieces of plastic litter and garbage scattered in the water."
+    }
+  ],
+  "scene": {
+    "is_stream": true,
+    "quality": "ok",
+    "note": "Concrete canalized urban stream channel with shallow water flow.",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": [
+        "flat"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: wide, flat concrete bed with sloping concrete side walls.",
+      "photo": "downstream"
+    },
+    {
+      "question": "bottom_type",
+      "value": [
+        "artificial"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, stream bed: smooth artificial concrete channel floor visible through shallow water.",
+      "photo": "downstream"
+    },
+    {
+      "question": "bank_type",
+      "value": [
+        "artificial"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, both banks: sloping artificial concrete walls.",
+      "photo": "downstream"
+    },
+    {
+      "question": "habitats",
+      "value": [
+        "aquatic_vegetation",
+        "riffles"
+      ],
+      "support": 0.6666666666666666,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 0,
+        "riffles": 0.6666666666666666,
+        "aquatic_vegetation": 1
+      },
+      "looks": 3,
+      "evidence": "downstream photo: patch of green vegetation rooted in water on the right and a small water drop over a sill on the left.",
+      "photo": "downstream"
+    },
+    {
+      "question": "natural_debris",
+      "value": [],
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 0,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo: no fallen trees, branches, or leaf deposits in the channel.",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_flow",
+      "value": [
+        "slow"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, mid-channel: shallow water flowing smoothly across the bed and over a low drop.",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_aspect",
+      "value": [
+        "clear"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the concrete channel bottom is clearly visible through the water.",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no water withdrawal pipes, pumps, or intakes visible.",
+      "photo": "downstream"
+    },
+    {
+      "question": "barriers",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, mid-channel: an artificial concrete weir step drops the water level across the channel.",
+      "photo": "downstream"
+    },
+    {
+      "question": "draining_pipes",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no pipes discharging visible polluted water into the channel.",
+      "photo": "downstream"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no visible sewage discharge or grey water entering the channel.",
+      "photo": "downstream"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no active construction machinery, works, or fencing in the stream.",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": [
+        "no"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, far banktop (left margin): mostly unpaved earth and trees with less than one third impervious cover.",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, foreground banktop (right margin): extensive cracked concrete slab covering more than one third of the margin.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, far banktop (left margin): mature trees growing along the top of the bank.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": [
+        "trees"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, far banktop (left margin): mature trees form the dominant vegetation.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, foreground banktop (right margin): bare concrete and dirt with no vegetation cover.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, foreground banktop: no vegetation present to determine dominance.",
+      "photo": "none"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, banks: no signs of recent vegetation cutting or clearing.",
+      "photo": "downstream"
+    }
+  ],
+  "createdAt": "2026-10-04T19:20:41.717Z"
+}

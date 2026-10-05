@@ -1,0 +1,215 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [],
+  "scene": {
+    "is_stream": true,
+    "quality": "ok",
+    "note": "",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": [
+        "flat"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: wide and shallow channel spread across a flat rocky bed",
+      "photo": "downstream"
+    },
+    {
+      "question": "bottom_type",
+      "value": [
+        "natural"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, foreground: natural rocks, cobbles, and gravel visible through clear water",
+      "photo": "downstream"
+    },
+    {
+      "question": "bank_type",
+      "value": [
+        "natural"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, both banks: natural earth and wild vegetation with no artificial structures",
+      "photo": "downstream"
+    },
+    {
+      "question": "habitats",
+      "value": [
+        "riffles",
+        "stone_deposits"
+      ],
+      "support": 1,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 1,
+        "riffles": 1,
+        "aquatic_vegetation": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, across channel: numerous stone deposits and riffles breaking over shallow rocks",
+      "photo": "downstream"
+    },
+    {
+      "question": "natural_debris",
+      "value": [],
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 0,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo: no fallen trees, large branches, or leaf deposits visible in the visible channel",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_flow",
+      "value": [
+        "fast"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center: shallow water actively rippling and breaking over stones",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_aspect",
+      "value": [
+        "clear"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, foreground: clear water with the rocky bed clearly visible beneath the surface",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: natural open channel with no pumps, pipes, or withdrawal devices",
+      "photo": "downstream"
+    },
+    {
+      "question": "barriers",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: unobstructed channel with no transverse artificial barriers or dams",
+      "photo": "downstream"
+    },
+    {
+      "question": "draining_pipes",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: completely natural shoreline with no pipes present",
+      "photo": "downstream"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: pristine natural stream with no signs of sewage discharge",
+      "photo": "downstream"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: undisturbed natural environment with no construction or works",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: continuous natural tundra vegetation with no paved surfaces",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: continuous grass and shrub cover with no impervious surfaces",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: bank is densely covered with shrubs and herbs",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": [
+        "shrubs"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: dense low woody bushes and dwarf scrub cover the bank",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: bank is fully covered in tall grasses and low plants",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": [
+        "herbs"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: predominantly grassy and soft-stemmed herbaceous vegetation",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no signs of mowing, clearing, or recent tree cutting along either bank",
+      "photo": "downstream"
+    }
+  ],
+  "createdAt": "2026-10-04T19:24:32.817Z"
+}

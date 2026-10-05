@@ -1,0 +1,208 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [],
+  "scene": {
+    "is_stream": true,
+    "quality": "ok",
+    "note": "A clear view of a stream channel flowing through grassy pastures with a sluice gate structure.",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": [
+        "u_shape"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center: the channel displays sloping earthen sides forming a rounded U-shaped cross section",
+      "photo": "downstream"
+    },
+    {
+      "question": "bottom_type",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel center: the channel bed is concealed beneath reflective and turbid water",
+      "photo": "none"
+    },
+    {
+      "question": "bank_type",
+      "value": [
+        "natural"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, along both banks: the channel margins consist of natural earth and grass",
+      "photo": "downstream"
+    },
+    {
+      "question": "habitats",
+      "value": [],
+      "support": 1,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 0,
+        "riffles": 0,
+        "aquatic_vegetation": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, water channel: no sand banks, islands, stone piles, riffles, or emergent aquatic plants are discernible in the water",
+      "photo": "downstream"
+    },
+    {
+      "question": "natural_debris",
+      "value": [],
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 0,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, water surface and banks: no fallen trees, branches, or leaf packs are visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_flow",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, water surface: the still photo does not distinguish whether the smooth water is slowly moving or stagnant",
+      "photo": "none"
+    },
+    {
+      "question": "water_aspect",
+      "value": [
+        "turbid"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, water surface: the water is brown and opaque, preventing visibility into the bed",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel and banks: no water intake pipes, pumps, or diversion channels are present",
+      "photo": "downstream"
+    },
+    {
+      "question": "barriers",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, middle ground: an artificial sluice gate structure crosses the stream channel",
+      "photo": "downstream"
+    },
+    {
+      "question": "draining_pipes",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, banks: no draining pipes discharging polluted effluent are visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, visible water: no sewage entry, discharge, or wastewater plumes are visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel area: no construction machinery, works, or fresh building materials are present",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: the area consists entirely of vegetated ground and earthen bank without paved surfaces",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: the ground is open grassy field and pasture with no impervious coverage",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: the ground is covered by grasses, shrubs, and trees",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": [
+        "herbs"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin bank top: grasses and herbaceous plants dominate the immediate bank area",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: continuous grass cover extends along the bank",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": [
+        "herbs"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: the bank top and adjacent field are dominated by grass and herbaceous vegetation",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, along the banks: no fresh cuts, cleared banks, or mown strips are visible on the stream banks",
+      "photo": "downstream"
+    }
+  ],
+  "createdAt": "2026-10-04T19:22:53.386Z"
+}

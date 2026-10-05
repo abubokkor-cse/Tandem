@@ -1,0 +1,218 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [
+    {
+      "kind": "litter",
+      "support": 1,
+      "photo": "downstream",
+      "evidence": "downstream photo, bottom right in the water: a small piece of blue plastic waste"
+    }
+  ],
+  "scene": {
+    "is_stream": true,
+    "quality": "ok",
+    "note": "A concrete culvert outlet flowing into a stream pool.",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the full cross-section of the stream channel downstream of the culvert is not fully visible",
+      "photo": "none"
+    },
+    {
+      "question": "bottom_type",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, foreground: dark pool water prevents a clear view across the channel bed",
+      "photo": "none"
+    },
+    {
+      "question": "bank_type",
+      "value": [
+        "artificial"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left and center: large vertical concrete retaining wall and culvert structure",
+      "photo": "downstream"
+    },
+    {
+      "question": "habitats",
+      "value": [
+        "riffles",
+        "stone_deposits"
+      ],
+      "support": 1,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 1,
+        "riffles": 1,
+        "aquatic_vegetation": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, center and right: small waterfall drop from the culvert apron and loose stone deposits along the right water edge",
+      "photo": "downstream"
+    },
+    {
+      "question": "natural_debris",
+      "value": [
+        "fallen_branches"
+      ],
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 1,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, center: a fallen branch resting on the culvert lip and twigs in the plunge pool",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_flow",
+      "value": [
+        "fast"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center: water pouring rapidly over the ledge creating white turbulent water",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_aspect",
+      "value": [
+        "clear"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center: water flowing over the concrete drop is clear and transparent",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no intake pipes, pumps, or hoses are visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "barriers",
+      "value": [
+        "no"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo: culvert structure directs flow into the stream without an artificial damming barrier across the open channel",
+      "photo": "downstream"
+    },
+    {
+      "question": "draining_pipes",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center: the culvert discharges clean, unpolluted water",
+      "photo": "downstream"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no signs of sewage discharge or greywater",
+      "photo": "downstream"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no construction machinery or active works present",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": "not_visible",
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, left: the ground behind the top of the concrete retaining wall is not visible",
+      "photo": "none"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "no"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, right bank: natural slope with soil, grasses, and trees",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "no"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, left bank: dominated by a concrete retaining wall with sparse vegetation",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": [
+        "herbs"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: small low herbs growing in the ground patch beside the concrete wall",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right bank: covered with grass, trees, and ground plants",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": [
+        "trees"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, right bank: a large tree trunk dominates the immediate margin",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no freshly cut stems, mown grass, or tree stumps are visible",
+      "photo": "downstream"
+    }
+  ],
+  "createdAt": "2026-10-04T19:22:29.694Z"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "tandem",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Two independent observers for every stream check: the citizen answers first, the AI looks at the photos blind, and the citizen decides. OneAquaHealth IEEE Global Hackathon 2026, Track 3.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "models": "tsx scripts/list-models.ts",
+    "e2e": "tsx scripts/e2e.ts",
+    "eval:fetch": "tsx scripts/fetch-eval-photos.ts",
+    "eval:run": "tsx scripts/run-eval.ts",
+    "eval:report": "tsx scripts/eval-report.ts",
+    "fhir:examples": "tsx scripts/fhir-examples.ts",
+    "fhir:validate": "java -jar tools/validator_cli.jar fhir/examples/*.json fhir/terminology/*.json -version 4.0.1 -ig tools/oah/fsh-generated/resources -ig fhir/terminology -ig hl7.fhir.uv.xver-r5.r4#0.1.0 -tx https://tx.fhir.org/r4",
+    "fhir:ig": "git clone --depth 1 https://github.com/hl7-eu/oah tools/oah && npx -y fsh-sushi tools/oah",
+    "samples:cache": "tsx scripts/cache-samples.ts"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "puppeteer-core": "^25.12.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  }
+}

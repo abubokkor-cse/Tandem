@@ -1,0 +1,221 @@
+{
+  "generatedAt": "2026-10-04T20:01:33.774Z",
+  "model": "gemini-3.8-flash",
+  "promptVersion": "tandem-prompt-v1",
+  "looks": 3,
+  "labeller": "Independent AI reference (Claude)",
+  "kind": "ai",
+  "photos": 25,
+  "excluded": 2,
+  "overall": {
+    "n": 369,
+    "coverage": 0.978,
+    "accuracy": 0.942,
+    "accuracyCi": [
+      0.913,
+      0.962
+    ],
+    "kappa": 0.927,
+    "accuracyAllAgree": 0.956,
+    "accuracyAllAgreeCi": [
+      0.929,
+      0.973
+    ],
+    "coverageAllAgree": 0.93,
+    "ece": 0.042
+  },
+  "abstention": {
+    "cannotTell": 109,
+    "aiAlsoAbstained": 45,
+    "rate": 0.413
+  },
+  "perQuestion": [
+    {
+      "question": "channel_form",
+      "n": 6,
+      "coverage": 0.833,
+      "accuracy": 1,
+      "ci": [
+        0.566,
+        1
+      ],
+      "kappa": 1
+    },
+    {
+      "question": "bottom_type",
+      "n": 9,
+      "coverage": 0.889,
+      "accuracy": 1,
+      "ci": [
+        0.676,
+        1
+      ],
+      "kappa": 1
+    },
+    {
+      "question": "bank_type",
+      "n": 23,
+      "coverage": 0.957,
+      "accuracy": 1,
+      "ci": [
+        0.851,
+        1
+      ],
+      "kappa": 1
+    },
+    {
+      "question": "habitats",
+      "n": 105,
+      "coverage": 1,
+      "accuracy": 0.933,
+      "ci": [
+        0.869,
+        0.967
+      ],
+      "kappa": 0.761
+    },
+    {
+      "question": "natural_debris",
+      "n": 48,
+      "coverage": 1,
+      "accuracy": 0.917,
+      "ci": [
+        0.804,
+        0.967
+      ],
+      "kappa": 0.701
+    },
+    {
+      "question": "water_flow",
+      "n": 14,
+      "coverage": 0.786,
+      "accuracy": 0.909,
+      "ci": [
+        0.623,
+        0.984
+      ],
+      "kappa": 0.81
+    },
+    {
+      "question": "water_aspect",
+      "n": 7,
+      "coverage": 1,
+      "accuracy": 0.714,
+      "ci": [
+        0.359,
+        0.918
+      ],
+      "kappa": 0
+    },
+    {
+      "question": "barriers",
+      "n": 24,
+      "coverage": 0.958,
+      "accuracy": 0.87,
+      "ci": [
+        0.679,
+        0.955
+      ],
+      "kappa": 0.709
+    },
+    {
+      "question": "construction",
+      "n": 24,
+      "coverage": 0.958,
+      "accuracy": 1,
+      "ci": [
+        0.857,
+        1
+      ],
+      "kappa": 1
+    },
+    {
+      "question": "impervious_left",
+      "n": 20,
+      "coverage": 1,
+      "accuracy": 1,
+      "ci": [
+        0.839,
+        1
+      ],
+      "kappa": 1
+    },
+    {
+      "question": "impervious_right",
+      "n": 20,
+      "coverage": 1,
+      "accuracy": 1,
+      "ci": [
+        0.839,
+        1
+      ],
+      "kappa": 1
+    },
+    {
+      "question": "vegetation_left",
+      "n": 18,
+      "coverage": 1,
+      "accuracy": 1,
+      "ci": [
+        0.824,
+        1
+      ],
+      "kappa": 1
+    },
+    {
+      "question": "vegetation_type_left",
+      "n": 14,
+      "coverage": 1,
+      "accuracy": 0.857,
+      "ci": [
+        0.601,
+        0.96
+      ],
+      "kappa": 0.717
+    },
+    {
+      "question": "vegetation_right",
+      "n": 20,
+      "coverage": 1,
+      "accuracy": 1,
+      "ci": [
+        0.839,
+        1
+      ],
+      "kappa": 1
+    },
+    {
+      "question": "vegetation_type_right",
+      "n": 17,
+      "coverage": 1,
+      "accuracy": 0.882,
+      "ci": [
+        0.657,
+        0.967
+      ],
+      "kappa": 0.775
+    }
+  ],
+  "reliability": [
+    {
+      "support": 0.67,
+      "count": 18,
+      "accuracy": 0.667
+    },
+    {
+      "support": 1,
+      "count": 343,
+      "accuracy": 0.956
+    }
+  ],
+  "simulation": {
+    "errorRate": 0.2,
+    "recall": 0.898,
+    "falseAlarm": 0.043,
+    "wrong": 88,
+    "right": 281
+  },
+  "reference": null,
+  "labelCrossCheck": null,
+  "labellingPace": null
+}

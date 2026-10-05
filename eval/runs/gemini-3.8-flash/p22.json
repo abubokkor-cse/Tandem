@@ -1,0 +1,213 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [
+    {
+      "kind": "wildlife",
+      "support": 1,
+      "photo": "downstream",
+      "evidence": "downstream photo, middle of channel: a flock of waterfowl flying low and resting on the water"
+    }
+  ],
+  "scene": {
+    "is_stream": true,
+    "quality": "ok",
+    "note": "Downstream view along a straight, canalized stream or ditch in morning mist with waterfowl.",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": [
+        "flat"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center: wide, shallow channel with uniform sloping banks and a flat cross section",
+      "photo": "downstream"
+    },
+    {
+      "question": "bottom_type",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, stream channel: water surface reflects the sky and mist, hiding the bed substrate",
+      "photo": "none"
+    },
+    {
+      "question": "bank_type",
+      "value": [
+        "natural"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left and right banks: vegetated earth slopes along both sides",
+      "photo": "downstream"
+    },
+    {
+      "question": "habitats",
+      "value": [
+        "aquatic_vegetation"
+      ],
+      "support": 1,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 0,
+        "riffles": 0,
+        "aquatic_vegetation": 1
+      },
+      "looks": 3,
+      "evidence": "downstream photo, foreground and midground channel: aquatic plants growing in and breaking the surface of the water",
+      "photo": "downstream"
+    },
+    {
+      "question": "natural_debris",
+      "value": [],
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 0,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo, stream channel: no fallen trees, branches, or leaf accumulations visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_flow",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, water surface: smooth surface with minor ripples from waterfowl makes it impossible to distinguish slow from stagnant flow",
+      "photo": "none"
+    },
+    {
+      "question": "water_aspect",
+      "value": "not_visible",
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, water surface: low morning sun and glare reflect across the water surface, obscuring clarity",
+      "photo": "none"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, entire stretch: no water pumps, hoses, or intake structures are visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "barriers",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, stream channel: open water without any weirs, sills, or dams across the stream",
+      "photo": "downstream"
+    },
+    {
+      "question": "draining_pipes",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, banks: no discharge pipes visible along either visible bank",
+      "photo": "downstream"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel and banks: no sewage discharge or greywater plumes visible",
+      "photo": "downstream"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, channel and banks: no machinery, works, or construction materials present",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: grassy embankment and trees with no paved areas or buildings",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: grassy bank and agricultural field with no paved surfaces",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: bank is fully covered with grasses and trees",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": [
+        "herbs"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: grasses and low herbaceous vegetation dominate the bank slope",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: bank is continuous grass and field vegetation",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": [
+        "herbs"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: herbaceous vegetation and grasses dominate the bank",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, banks: no clear recent fresh cut stems or mown strips identifiable in the lighting",
+      "photo": "none"
+    }
+  ],
+  "createdAt": "2026-10-04T19:25:28.387Z"
+}

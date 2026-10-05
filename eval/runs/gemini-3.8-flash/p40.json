@@ -1,0 +1,206 @@
+{
+  "model": "gemini-3.8-flash",
+  "looks": 3,
+  "anomalies": [],
+  "scene": {
+    "is_stream": true,
+    "quality": "ok",
+    "note": "Downstream view of a canal lock with stone and brick masonry walls.",
+    "support": 1
+  },
+  "findings": [
+    {
+      "question": "channel_form",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the channel bed is submerged under deep water and not visible.",
+      "photo": "none"
+    },
+    {
+      "question": "bottom_type",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: the bottom of the channel is hidden by deep, murky water.",
+      "photo": "none"
+    },
+    {
+      "question": "bank_type",
+      "value": [
+        "artificial"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, both banks: constructed with mortared brick and stone masonry walls.",
+      "photo": "downstream"
+    },
+    {
+      "question": "habitats",
+      "value": [],
+      "support": 1,
+      "optionSupport": {
+        "sand_banks": 0,
+        "sand_islands": 0,
+        "stone_deposits": 0,
+        "riffles": 0,
+        "aquatic_vegetation": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo: no sand banks, gravel islands, stone deposits, or instream vegetation are visible in the channel.",
+      "photo": "downstream"
+    },
+    {
+      "question": "natural_debris",
+      "value": [],
+      "support": 1,
+      "optionSupport": {
+        "fallen_trees": 0,
+        "fallen_branches": 0,
+        "leaf_deposits": 0
+      },
+      "looks": 3,
+      "evidence": "downstream photo: no fallen trees, branches, or leaf deposits in the visible channel.",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_flow",
+      "value": "not_visible",
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: water flow rate in the main channel cannot be determined from the still photo.",
+      "photo": "none"
+    },
+    {
+      "question": "water_aspect",
+      "value": [
+        "turbid"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, main channel: the water is brown and turbid, obscuring the channel bed.",
+      "photo": "downstream"
+    },
+    {
+      "question": "water_withdrawal",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no intake pipes, pumps, or extraction structures are present.",
+      "photo": "downstream"
+    },
+    {
+      "question": "barriers",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, center: canal lock gates form a transversal barrier across the channel.",
+      "photo": "downstream"
+    },
+    {
+      "question": "draining_pipes",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no pipes discharging polluted water are visible.",
+      "photo": "downstream"
+    },
+    {
+      "question": "sewage_discharge",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no visible sewage discharges or wastewater plumes.",
+      "photo": "downstream"
+    },
+    {
+      "question": "construction",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo: no machinery, ongoing works, or construction materials are present.",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_left",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: bank consists predominantly of grass slopes and pasture.",
+      "photo": "downstream"
+    },
+    {
+      "question": "impervious_right",
+      "value": [
+        "no"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: the margin consists mostly of grassy ground and an unpaved towpath.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_left",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: banktop is covered in grass, herbs, and shrubs.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_left",
+      "value": [
+        "herbs"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, left margin: grasses dominate the first 5 meters from the banktop.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_right",
+      "value": [
+        "yes"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: grassy banktop alongside the towpath.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_type_right",
+      "value": [
+        "herbs"
+      ],
+      "support": 1,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: grasses cover the majority of the first 5 meters from the banktop.",
+      "photo": "downstream"
+    },
+    {
+      "question": "vegetation_cut",
+      "value": [
+        "yes"
+      ],
+      "support": 0.6666666666666666,
+      "looks": 3,
+      "evidence": "downstream photo, right margin: short mown grass along the towpath indicates recent maintenance.",
+      "photo": "downstream"
+    }
+  ],
+  "createdAt": "2026-10-04T19:32:23.826Z"
+}

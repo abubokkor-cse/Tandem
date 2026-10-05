@@ -1,0 +1,90 @@
+FHIR Validation tool Version 6.10.4 (Git# 1b90fb13f77b). Built 2026-09-04T05:45:41.468Z (30 days old)
+  Java:   23 from /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home on aarch64 (64bit). 2048MB available
+  Paths:  Current = /Users/md.abubokkor/Documents/OneAquaHealth IEEE Global Hackathon, Package Cache = /Users/md.abubokkor/.fhir/packages
+  Params: fhir/examples/demo-coimbra-c1.json fhir/examples/demo-ghent-g2.json fhir/examples/demo-oslo-o17.json fhir/examples/demo-toulouse-t21.json fhir/terminology/CodeSystem-anomaly.json fhir/terminology/CodeSystem-citizen-answer.json fhir/terminology/CodeSystem-citizen-question.json -version 4.0.1 -ig tools/oah/fsh-generated/resources -ig fhir/terminology -ig hl7.fhir.uv.xver-r5.r4#0.1.0 -tx https://tx.fhir.org/r4
+  Locale: United States/US
+  Jurisdiction: United States of America
+Loading
+  Loading FHIR v4.0.1 from hl7.fhir.r4.core#4.0.1
+  Load hl7.terminology.r4#6.2.0 - 4288 resources (00:03.982)
+  Load hl7.fhir.uv.extensions.r4#5.2.0 - 759 resources (00:00.821)
+  Loaded FHIR - 8268 resources (00:00.000)
+  Terminology server https://tx.fhir.org/r4 - Version Connected to Terminology Server at https://tx.fhir.org/r4 (00:03.759)
+  Load hl7.terminology#7.4.0 - 4181 resources (00:01.724)
+  Load hl7.fhir.uv.extensions.r5#5.2.0 - 759 resources (00:00.379)
+  Load hl7.terminology.r5#7.1.0 - 4072 resources (00:00.553)
+  Load hl7.fhir.uv.extensions#5.3.0 - 856 resources (00:00.009)
+  Load tools/oah/fsh-generated/resources - 504 resources (00:00.189)
+  Load fhir/terminology - 3 resources (00:00.001)
+  Load hl7.terminology.r4#7.1.0 - 4072 resources (00:01.691)
+  Load hl7.fhir.uv.xver-r5.r4#0.1.0 - 4707 resources (00:00.039)
+  Package Summary: [hl7.fhir.r4.core#4.0.1, hl7.fhir.xver-extensions#0.1.0, hl7.terminology.r4#6.2.0, hl7.fhir.uv.extensions.r4#5.2.0, hl7.terminology#7.4.0, hl7.fhir.uv.extensions.r5#5.2.0, hl7.terminology.r5#7.1.0, hl7.fhir.uv.extensions#5.3.0, hl7.terminology.r4#7.1.0, hl7.fhir.uv.xver-r5.r4#0.1.0]
+  Terminology Cache at /var/folders/42/2q0rdgd11l5bw85g68y1151m0000gn/T/default-tx-cache
+  Get set... 
+  ...go! (00:04.605)
+Cached new session. Cache size = 1
+Sources to validate: fhir/examples/demo-coimbra-c1.jsonfhir/examples/demo-ghent-g2.jsonfhir/examples/demo-oslo-o17.jsonfhir/examples/demo-toulouse-t21.jsonfhir/terminology/CodeSystem-anomaly.jsonfhir/terminology/CodeSystem-citizen-answer.jsonfhir/terminology/CodeSystem-citizen-question.json
+Validating
+  Validate fhir/examples/demo-coimbra-c1.json
+ 00:01.564
+  Validate fhir/examples/demo-ghent-g2.json
+ 00:00.145
+  Validate fhir/examples/demo-oslo-o17.json
+ 00:00.092
+  Validate fhir/examples/demo-toulouse-t21.json
+ 00:00.079
+  Validate fhir/terminology/CodeSystem-anomaly.json
+ 00:00.019
+  Validate fhir/terminology/CodeSystem-citizen-answer.json
+ 00:00.024
+  Validate fhir/terminology/CodeSystem-citizen-question.json
+ 00:00.017
+Done. Times: Loading: 00:17.790, validation: 00:01.944 (#7). Memory = 842Mb
+
+-- fhir/examples/demo-coimbra-c1.json ------------------------------------------
+Success: 0 errors, 0 warnings, 5 notes
+  Information @ Bundle.entry[6].resource/*Observation/null*/.component[0].code (line 346, col14): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#habitats), validating against Base FHIR Standard
+  Information @ Bundle.entry[6].resource/*Observation/null*/.component[1].code (line 366, col14): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#habitats), validating against Base FHIR Standard
+  Information @ Bundle.entry[7].resource/*Observation/null*/.component[0].code (line 447, col14): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#natural_debris), validating against Base FHIR Standard
+  Information @ Bundle.entry[24].resource/*Observation/null*/.code (line 1594, col10): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#overall_health), validating against http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
+  Information @ Bundle.entry[25].resource/*Observation/null*/.code (line 1658, col10): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#additional_observation), validating against http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
+--------------------------------------------------------------------------------
+
+-- fhir/examples/demo-ghent-g2.json ----------------------------------------
+Success: 0 errors, 0 warnings, 4 notes
+  Information @ Bundle.entry[6].resource/*Observation/null*/.component[0].code (line 346, col14): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#habitats), validating against Base FHIR Standard
+  Information @ Bundle.entry[7].resource/*Observation/null*/.component[0].code (line 427, col14): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#natural_debris), validating against Base FHIR Standard
+  Information @ Bundle.entry[23].resource/*Observation/null*/.code (line 1514, col10): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#overall_health), validating against http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
+  Information @ Bundle.entry[24].resource/*Observation/null*/.code (line 1578, col10): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#additional_observation), validating against http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
+----------------------------------------------------------------------------
+
+-- fhir/examples/demo-oslo-o17.json ----------------------------------------
+Success: 0 errors, 0 warnings, 4 notes
+  Information @ Bundle.entry[6].resource/*Observation/null*/.component[0].code (line 346, col14): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#habitats), validating against Base FHIR Standard
+  Information @ Bundle.entry[6].resource/*Observation/null*/.component[1].code (line 366, col14): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#habitats), validating against Base FHIR Standard
+  Information @ Bundle.entry[7].resource/*Observation/null*/.component[0].code (line 447, col14): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#natural_debris), validating against Base FHIR Standard
+  Information @ Bundle.entry[23].resource/*Observation/null*/.code (line 1534, col10): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#overall_health), validating against http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
+----------------------------------------------------------------------------
+
+-- fhir/examples/demo-toulouse-t21.json --------------------------------------------
+Success: 0 errors, 0 warnings, 2 notes
+  Information @ Bundle.entry[22].resource/*Observation/null*/.code (line 1416, col10): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#overall_health), validating against http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
+  Information @ Bundle.entry[23].resource/*Observation/null*/.code (line 1483, col10): None of the codings provided are in the value set 'OAH Indicators (Non-Health)' (http://hl7.eu/fhir/ig/oah/ValueSet/oah-indicators-no-health-oah-vs), and a coding is recommended to come from this value set (codes = https://github.com/tandem-oah/tandem/fhir/CodeSystem/citizen-question#additional_observation), validating against http://hl7.eu/fhir/ig/oah/StructureDefinition/observation-indicators-oah
+------------------------------------------------------------------------------------
+
+-- fhir/terminology/CodeSystem-anomaly.json ------------------------------------------------
+Success: 0 errors, 0 warnings, 1 notes
+  Information: All OK
+--------------------------------------------------------------------------------------------
+
+-- fhir/terminology/CodeSystem-citizen-answer.json -------------------------------------------------------
+Success: 0 errors, 0 warnings, 1 notes
+  Information: All OK
+----------------------------------------------------------------------------------------------------------
+
+-- fhir/terminology/CodeSystem-citizen-question.json ---------------------------------------------------------
+Success: 0 errors, 0 warnings, 1 notes
+  Information: All OK
+--------------------------------------------------------------------------------------------------------------
+
+Done. Times: Loading: 00:17.790, validation: 00:01.944 (#7). Max Memory = 2Gb
